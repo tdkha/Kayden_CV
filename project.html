@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Kayden CV</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="project-style.css">
+        <link rel="icon" href="hinhanh\man.png">
+        <link rel="preconnect" href="">
+        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+        <script src="project-function.js"></script>
+        
+    </head>
+    <body>
+        <header>
+            <div class="wrapper">
+                    <a href="#" class="logo">Portfolio</a>
+            </div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#About">About </a></li>
+                <li><a href="#Project">Projects</a></li>
+                <li><a href="#Contact">Contact</a></li>
+            </ul>
+        </header>
+        <section class="outer_top_container">
+            <section class="top_container" >
+                <div class="textBanner">
+                    <h2>There are <br><span>JavaScript Projects</span></h2>
+                    <a href="#firstProject" class="abtme">Let's go</a>
+                </div>
+                <div>
+                    <img src="hinhanh/javascript-creator.png" alt="javascript-creator">
+                </div>
+            </section>
+        
+        <section>
+            <div class="heading" id="firstProject">
+                <h2>Fractorialize</h2>
+            </div>
+
+            <div class="Fractorialize-content">
+                <div class="Fractorialize-contentbox">
+                    <h2>What is fractorial ?</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</p>
+                    <input type="button" class="Button" onclick="factorialize()" value="Click me">
+                </div>
+
+                <div class="Fractorialize-pic">
+                   <img src="/hinhanh/giphy.gif" alt="">
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="heading">
+                <h2>Calculator</h2>
+            </div>
+            <div>
+                <table class="Cal-calculator">
+                    <tr>
+                        <td colspan = "3"> <input class = "Cal-display-box" type = "text" id = "result" disabled> </td>
+                        <td><input class="CalButton1" type="button" onclick="clearScreen1()" value="C"></td>
+                    </tr>
+                    <tr>
+                        <td><input class="CalButton1" type="button" onclick="display('7')" value="7"></td>
+                        <td><input class="CalButton1" type="button" onclick="display('8')" value="8"></td>
+                        <td><input class="CalButton1" type="button" onclick="display('9')" value="9"></td>
+                        <td><input class="CalButton1" type="button" onclick="display('/')" value="/"></td>
+                    </tr>
+                    <tr>
+                        <td><input class="CalButton1" type="button" onclick="display('4')" value="4"></td>
+                        <td><input class="CalButton1" type="button" onclick="display('5')" value="5"></td>
+                        <td><input class="CalButton1" type="button" onclick="display('6')" value="6"></td>
+                        <td><input class="CalButton1" type="button" onclick="display('*')" value="*"></td>
+                    </tr>
+                    <tr>
+                        <td><input class="CalButton1" type="button" onclick="display('3')" value="3"></td>
+                        <td><input class="CalButton1" type="button" onclick="display('2')" value="2"></td>
+                        <td><input class="CalButton1" type="button" onclick="display('1')" value="1"></td>
+                        <td><input class="CalButton1" type="button" onclick="display('-')" value="-"></td>
+                    </tr>
+                    <tr>
+                        <td><input class="CalButton1" type="button" onclick="display('.')" value="."></td>
+                        <td><input class="CalButton1" type="button" onclick="display('0')" value="0"></td>
+                        <td><input class="CalButton1" type="button" onclick="calculate('=')" value="="></td>
+                        <td><input class="CalButton1" type="button" onclick="display('+')" value="+"></td>
+                    </tr>
+                </td>
+                </table>
+            </div>
+
+        </section>
+
+
+        <section>
+            <div class="heading">
+                <h2>Calculating</h2>
+            </div>
+                <table class="calTable">
+                    <tr>
+                        <td>Sum of continuous numbers</td>
+                        <td><input type="button" class="calButton" onclick="valueN()" value="Click me"></td>
+                    </tr>
+                    <tr>
+                        <td>Sum of odd and even numbers</td>
+                        <td><input type="button" class="calButton" onclick="OddandEven()" value="Click me"></td>
+                    </tr>
+                </table>
+                
+        
+        </section>
+
+        <section>
+            <div class="heading">
+                <h2>String Handling</h2>
+            </div>
+            <div>
+                <table class="calTable">
+                    <tr>
+                        <td>Find letter in string</td>
+                        <td><input type="button" class="calButton" onclick="letterFind()" value="Click me"></td>
+                    </tr>
+                    <tr>
+                        <td>Find vowels in string</td>
+                        <td><input type="button" class="calButton" onclick="vowelFind()" value="Click me"></td>
+                    </tr>
+                    <tr>
+                        <td>Panlindrome</td>
+                        <td><input type="button" class="calButton" onclick="Palindrome()" value="Click me"></td>
+                    </tr>
+                </table>
+        </section>     
+
+        <section class="id-container">
+            <div>
+                <div class="heading">
+                    <h2>ID Checker</h2>
+                </div>
+                <table class="ID-checker">
+                    <tr>
+                        <td><input type="text" id="id-display" class="id-display-box"></td>
+                        <td><input type="button" class="id-Button2" onclick="clearScreen()" value="C"></td>
+                        <td><ion-icon name="arrow-forward-outline" class="id-Button1" onclick="intCalc()"></ion-icon></td>
+                        
+                    </tr>
+                </table>
+            </div>
+            <div>
+                <div class="heading">
+                    <h2>ID Info</h2>
+                </div>
+                <table class="ID-checker2">
+                    <tr>
+                        <td>Sex :</td>
+                        <td><input type="text" id="sex" class="id-secdisplay-box" disabled></td>
+                    </tr>
+                    <tr>
+                        <td>Age :</td>
+                        <td><input type="text" id="age" class="id-secdisplay-box" disabled></td>
+                    </tr>
+                    <tr>
+                        <td>Birthday :</td>
+                        <td><input type="text" id="birthday" class="id-secdisplay-box" disabled></td>
+                    </tr>
+                    <tr>
+                        <td>Specific Day :</td>
+                        <td colspan="3"><input type="text" id="spe-day" class="id-secdisplay-box" disabled></td>
+                    </tr>
+                </table>
+            </div>
+        </section>
+
+        <section class=gg-map-section>
+            <div>
+                <div class="gg-map-container">
+                    <iframe id="mapFrame" src="https://www.google.com/maps?q=Yliopistokatu36Lappeenranta&output=embed" frameBorder="0"></iframe>
+                </div>
+            </div>
+
+            <div>
+                <div class="heading" id="firstProject">
+                    <h2>Google Map</h2>
+                </div>
+                <div>
+                    <table id="addressSearch">
+                        <tr>
+                            <td>Street:</td>
+                            <td><input type="text" id="streetName" class="gg-map-input"></td>
+                        </tr>
+                        <tr>
+                            <td>City:</td>
+                            <td><input type="text" id="cityName" class="gg-map-input"></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td><input type="button" id="searchButton" class="searchbutton" onclick="gMap()" value="Enter"></td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </section>
+
+        
+       
+</html>

@@ -1,0 +1,430 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins',sans-serif;
+   
+}
+section{
+    padding: 100px 200px;
+    background-color: #1C1C1C;
+}
+.abtme{
+    position: relative;
+    background:#FDF3C0;
+    display: inline-block;
+    color:black;
+    margin-top: 20px ;
+    padding: 10px 30px ;
+    font-size: 18px;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 2px;
+    font-weight: 500;   
+}
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 90%;
+    padding: 40px 65px;
+    z-index: 1000;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    background-color: #1C1C1C;
+    
+
+}
+header .logo{
+    color: #fff;
+    font-size: 2em;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+header ul{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+header ul li{
+    position: relative;
+    list-style: none;
+
+} 
+header ul li a{
+    position: relative;
+    margin: 0 15px;
+    text-decoration: none;
+    color: #fff;
+    letter-spacing: 2px;
+    font-weight: 500;
+}
+.heading {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 30px;
+    color:white
+}
+.heading h2{
+    font-weight: 600;
+    font-size: 35px;
+
+
+}
+
+.outer_top_container{
+    padding: 30px 0px;
+    background-color: #1C1C1C;
+}
+.top_container{
+    height: 85vh;
+    width: 80%;
+    box-shadow: rgba(100,100,111, 0.2) 0px 7px 29px 0px;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    padding-left: 5%;
+    padding-right: 5%;
+    box-sizing: border-box;
+    position: relative;
+    margin-left: 10%;
+    margin-top: 200px;
+    margin-bottom: 100px;
+    
+}
+
+.top_container h2{
+    font-size: 3em;
+    color: #fff;
+    font-weight: 500;
+    line-height: 1.5em;
+}
+.top_container h2 span{
+    font-size: 1.5em;
+    font-weight: 700;   
+}
+.top_container h3{
+    font-size: 1.5em;
+    color: #fff;
+    font-weight: 500;
+    
+}
+.top_container img{
+    height: 80vh;
+    margin-top: 20px;
+    background-color: none;
+ 
+}
+
+.Fractorialize-content{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.Fractorialize-contentbox h2{
+    font-size: 30px;
+    margin-bottom: 10px;
+    color: white;
+}
+.Fractorialize-contentbox p{
+    margin-bottom: 30px;
+    color: white;
+}
+.Fractorialize-contentbox{
+    position: relative;
+    margin-top: 80px;
+}
+.Fractorialize-pic{
+    min-width: 50%;
+}
+.Fractorialize-pic img{
+    width: 104%;
+    height: 90%;
+    border-radius: 10px;
+    margin-left: 35px;
+    margin-top: 32px;
+    
+}
+.Cal-calculator {
+    padding: 10px;
+    border-radius: 1em;
+    height: 380px;
+    width: 400px;
+    margin: auto;
+    background-color: #1C1C1C;
+
+    box-shadow: rgba(100,100,111, 0.2) 0px 7px 50px 0px;
+   }
+.Cal-display-box {
+    font-family: 'Poppins', sans-serif;
+    background-color: #FDF3C0;
+    border: black 0.5px;
+    color: black;
+    border-radius: 5px;
+    width: 95%;
+    height: 65%;
+    text-align: right;
+    font-size: 30px;
+   }
+.CalButton1 {
+    font-family: 'Poppins', sans-serif;
+    width: 60px;
+    height: 60px;
+    padding: 0px;
+    margin: auto;
+    box-sizing: border-box;
+    background: #FDF3C0;
+    border: none;
+    font-size: 30px;
+    line-height: 30px;
+    border-radius: 50px;
+    font-weight: 700;
+    color: #5E5858;
+    cursor: pointer;
+   }
+.Button {
+    font-family: 'Poppins', sans-serif;
+    width: 180px;
+    height: 50px;
+    padding: 0;
+    margin: auto;
+    box-sizing: border-box;
+    background: #FDF3C0;
+    border: none;
+    font-size: 25px;
+    line-height: 30px;
+    border-radius: 50px;
+    font-weight: 500;
+    color:black;
+    cursor: pointer;
+    
+   }
+.calTable{
+    padding: 10px;
+    border-radius: 1em;
+    height: 180px;
+    width: 480px;
+    margin: auto;
+    background-color: #1C1C1C;
+    box-shadow: rgba(100,100,111, 0.2) 0px 7px 50px 0px;
+    color: white;
+    font-size: 20px;
+}
+.calButton{
+    font-family: 'Poppins', sans-serif;
+    width: 100px;
+    height: 30px;
+    padding: 0;
+    margin: auto;
+    box-sizing: border-box;
+    background: #FDF3C0;
+    border: none;
+    font-size: 18px;
+    line-height: 30px;
+    border-radius: 50px;
+    font-weight: 500;
+    color:black;
+    cursor: pointer;
+}
+
+iframe {
+    width: 500px;
+    height: 300px;
+    border-radius: 5px;
+}
+
+.ID-checker{
+    padding: 10px;
+    border-radius: 1em;
+    height: 100px;
+    width: 400px;
+    margin: auto;
+    background-color: #1C1C1C;
+    box-shadow: #FDF3C0 0px 5px 10px 0px;
+    justify-content: center;
+    margin-top: 80px;
+}
+.id-display-box{
+        font-family: 'Poppins', sans-serif;
+        background-color: white;
+        border: black 0.5px;
+        color: black;
+        border-radius: 5px;
+        width: 90%;
+        height: 65%;
+        text-align: right;
+        font-size: 30px;
+        margin-left: 20px;
+}
+.id-Button1{
+    font-family: 'Poppins', sans-serif;
+    width: 50px;
+    height: 50px;
+    padding: 0;
+    margin: auto;
+    box-sizing: border-box;
+    background: #FDF3C0;
+    border: none;
+    
+    border-radius: 50px;
+    font-weight: 400;
+    color:black;
+    cursor: pointer;
+    justify-content: center;
+    margin-left: 8px;
+}
+
+.id-Button2{
+    font-family: 'Poppins', sans-serif;
+    width: 50px;
+    height: 50px;
+    padding: 0;
+    margin: auto;
+    box-sizing: border-box;
+    background: #FDF3C0;
+    border: none;
+    font-size: 30px;
+    border-radius: 50px;
+    font-weight: 700;
+    color: black;
+    cursor: pointer;
+    
+}
+.ID-checker2{
+    padding: 10px;
+    border-radius: 1em;
+    height: 200px;
+    width: 400px;
+    margin: auto;   
+    background-color: #1C1C1C;
+    box-shadow: #FDF3C0 0px 7px 30px 0px;
+    justify-content: center;
+    color: white;
+    font-size: 20px;
+    color: #FDF3C0;
+    text-align: right;
+   
+}
+
+.id-secdisplay-box{
+    font-family: 'Poppins', sans-serif;
+    background-color: white;
+    border: black 0.5px;
+    color: black;
+    border-radius: 5px;
+    width: 180px;
+    height: 25px;
+    text-align: center;
+    font-size: 25px;
+    margin-top: 10px;
+
+}
+.id-container{
+    padding: 100px 200px;
+    background-color: #1C1C1C;
+    display: flex;
+    justify-content: space-around;
+}
+
+/* GOOGLE MAP */
+.gg-map-section{
+    padding: 100px 200px;
+    background-color: #1C1C1C;
+    display: flex;
+    justify-content: space-around;
+}
+#addressSearch{
+    padding: 10px;
+    border-radius: 1em;
+    height: 180px;
+    width: 200px;
+    background-color: #1C1C1C;
+    box-shadow: rgba(100,100,111, 0.2) 0px 7px 50px 0px;
+    color: #FDF3C0;
+    font-size: 20px;
+}
+
+.gg-map-input{
+    border-radius: 5px;
+    border: none;
+    margin-left: 10px;
+}
+.searchbutton{
+    font-family: 'Poppins', sans-serif;
+    width: 100px;
+    height: 30px;
+    padding: 0;
+    margin: auto;
+    box-sizing: border-box;
+    background: #FDF3C0;
+    border: none;
+    font-size: 18px;
+    line-height: 30px;
+    border-radius: 50px;
+    font-weight: 600;
+    color:black;
+    cursor: pointer;
+    margin-left: 45px;
+    
+}
+
+.task-container{
+    padding: 10px;
+    border-radius: 1em;
+    height: 380px;
+    width: 400px;
+    margin: auto;
+    background-color: #1C1C1C;
+    box-shadow: rgba(100,100,111, 0.2) 0px 7px 50px 0px;
+    color: white;
+    font-size: 20px;
+}
+.footer {
+    padding: 20px 20px;
+}
+
+.footer form {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+}
+#new_task_input {
+    min-width: 250px;
+    margin-right: 40px;
+    font-size: 20px;
+    color: white;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px rgba(255, 255, 255, 0.267) solid;
+}
+
+#new_task_input::placeholder {
+    color: rgba(255, 255, 255, 0.589);
+    font-size: 20px;
+    font-family: "Times New Roman";
+}
+
+#new_task_input_btn {
+    font-family: 'Poppins', sans-serif;
+    width: 100%;
+    height: 50px;
+    padding: 0;
+    margin: auto;
+    box-sizing: border-box;
+    background: #FDF3C0;
+    border: none;
+    font-size: 25px;
+    border-radius: 30px;
+
+    color:black;
+    cursor: pointer;
+}
